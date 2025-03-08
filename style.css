@@ -8,18 +8,60 @@ header img:nth-last-child(){
 
 h1{
     text-align: center;
+    margin: 0;
 
 }
 
-.header{
+.banner{
+    height: 100vh;
+    background-image: url("imgBG.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
-    font-size: 32px;
+    justify-content: center;
+box-shadow: inset 0px -120px 126.5px #00879E;
+
+}
+
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu img{
+    width: 170px;
+}
+
+.menu a{
+    font-size: 30px;
+    background-color: #FFAB5B;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: #FFF2DB;
+
+}
+
+.big_container{
+    background-color: #00879E;
 }
 
 .name{
-    flex-grow: 1;
-    color: #000957;
+    color: #FFF2DB;
+    font-size: 40px;
+    background-color: rgba(255, 170, 91, 0.678);
+    height: fit-content;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+
 }
+
+
 
 a {
     text-decoration: none;
@@ -40,6 +82,26 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFAB5B;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.price_cnt{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.price_cnt button{
+    font-size: 30px;
+    padding: 7px 20px;
+    background-color: #003092;
+    border-radius: 10px;
+    color: #FFF2DB;
+    cursor: pointer;
 }
 
 .item_container{
@@ -53,6 +115,8 @@ main {
 
 .korm{
     color:#8D8D8D;
+    font-size: 70px;
+    padding: 70px;
 }
 
 .item2{
@@ -60,17 +124,30 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFAB5B;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 30px;
 }
+
 
 .item3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFAB5B;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    font-size: 30px;
 }
 
 .weather {
     color:#8D8D8D;
+    font-size: 70px;
+    padding: 70px;
 }
 
 p{
