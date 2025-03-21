@@ -9,7 +9,7 @@ header img:nth-last-child(){
 h1{
     text-align: center;
     margin: 0;
-
+    
 }
 
 .banner{
@@ -157,6 +157,11 @@ p{
     text-align: center;
 }
 
+.action{
+    text-decoration: line-through;
+    color: red;
+    font-size: 20px;
+}
 
 .item_container2{
     display: flex;
@@ -220,4 +225,24 @@ button:hover{
 
 .menu a:hover{
     background-color: #FF9837;
+    padding: 7px 16px;
+}
+
+.program{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.comments{
+    background-color: #196A78;;
+}
+
+.error{
+    color: #FFF2DB;
+    font-size: 70px;
+    padding: 70px;
 }
