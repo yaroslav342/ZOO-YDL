@@ -61,7 +61,32 @@ box-shadow: inset 0px -120px 126.5px #00879E;
 
 }
 
+.comments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.comment{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text_h1, .text_p{
+    text-align: left;
+    padding: 15px;
+}
+
+.text_h1{
+    font-size: 35px;
+}
+
+.text_p{
+    font-size: 20px;
+}
 
 a {
     text-decoration: none;
@@ -245,4 +270,25 @@ button:hover{
     color: #FFF2DB;
     font-size: 70px;
     padding: 70px;
+}
+
+.rev_form{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.yourComent{
+    padding: 10px 20px;
+    background-color: #0e7c90da;
+    border-radius: 12px;
+
+}
+
+.inp_btn{
+    padding: 10px 20px;
+    background-color: #0e7c90da;
+    cursor: pointer;
+    color: #FFF2DB;
+    border-radius: 12px;
 }
